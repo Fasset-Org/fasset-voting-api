@@ -13,9 +13,11 @@ const {
   Employee,
   Category,
   Vote,
-  UserVoteCategory
+  UserVoteCategory,
+  Sequelize
 } = require("./models");
 const path = require("path");
+const category = require("./models/category");
 
 // initalize express application
 const app = express();
@@ -75,6 +77,20 @@ app.post(`${API_BASE_URL}/voteCategory`, async (req, res, next) => {
   const t = await sequelize.transaction();
 
   try {
+    const usrVote = await UserVoteCategory.findOne({
+      where: {
+        userVotingEmail: req.body.userVotingEmail,
+        categoryId: req.body.categoryId
+      }
+    });
+
+    if (usrVote) {
+      return res.status(404).json({
+        success: false,
+        message: "You already voted for this category"
+      });
+    }
+
     const userVote = await UserVoteCategory.create(
       {
         userVotingEmail: req.body.userVotingEmail,
@@ -93,35 +109,63 @@ app.post(`${API_BASE_URL}/voteCategory`, async (req, res, next) => {
 
     await t.commit();
 
-    res
+    return res
       .status(201)
       .json({ success: true, message: "Your vote was submitted successfully" });
   } catch (e) {
     console.log(e);
     await t.rollback();
 
-    res
+    return res
       .status(500)
       .json({ success: false, message: "Failed to submit your vote" });
   }
 });
 
-app.get(`${API_BASE_URL}/results`, async (req, res, next) => {
-  const votes = Vote.findAll({
-    attributes: [
-      "employeeId",
-      [sequelize.fn("COUNT", sequelize.col("employeeId")), "voteCount"]
-    ],
+app.get(
+  `${API_BASE_URL}/getUserVotes/:userVoteEmail`,
+  async (req, res, next) => {
+    const { userVoteEmail } = req.params;
+
+    console.log(req.params);
+
+    const userVotes = await UserVoteCategory.findAll({
+      where: { userVotingEmail: userVoteEmail }
+    });
+
+    return res.status(200).json({
+      success: true,
+      message: "User votes fetched",
+      userVotes: userVotes
+    });
+  }
+);
+
+app.get(`${API_BASE_URL}/getAllVotes`, async (req, res, next) => {
+  const votes = await Vote.findAll({ include: [Employee] });
+
+  return res
+    .status(200)
+    .json({ success: true, message: "All votes fetched", votes: votes });
+});
+
+app.get(`${API_BASE_URL}/results/:categoryId`, async (req, res, next) => {
+  const { categoryId } = req.params;
+
+  const results = await Employee.findAll({
+    attributes: ["fullName", "position", "id"],
     include: [
       {
-        model: Employee
-      },
-      {
-        model: Category
+        model: Vote,
+        where: { categoryId: categoryId }
       }
-    ],
-    group: ["employeeId", "categoryId"],
-    having: sequelize.literal("COUNT(employeeId) > 0")
+    ]
+  });
+
+  res.status(200).json({
+    success: true,
+    message: "Vote results checked",
+    votes: results
   });
 });
 
