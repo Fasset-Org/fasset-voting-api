@@ -722,6 +722,22 @@ module.exports = {
           id: uuidv4()
         },
         {
+          fullName: "Information and Communications Technology",
+          position: "Department",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "department",
+          id: uuidv4()
+        },
+        {
+          fullName: "Executive Office",
+          position: "Department",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "department",
+          id: uuidv4()
+        },
+        {
           fullName: "Lucas Otletseng",
           position: "Intern",
           dateCreated: new Date(),
@@ -795,6 +811,22 @@ module.exports = {
         },
         {
           fullName: "Kwanda Buthelezi",
+          position: "Intern",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "employee",
+          id: uuidv4()
+        },
+        {
+          fullName: "Mpho Gift Matladi",
+          position: "Intern",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "employee",
+          id: uuidv4()
+        },
+        {
+          fullName: "Tshegofatjo Zedan Masoga",
           position: "Intern",
           dateCreated: new Date(),
           dateUpdated: new Date(),
