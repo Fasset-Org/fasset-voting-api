@@ -193,14 +193,14 @@ module.exports = {
           type: "employee",
           id: uuidv4()
         },
-        {
-          fullName: "Boitumelo Sepeng",
-          position: "Specialist",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
+        // {
+        //   fullName: "Boitumelo Sepeng",
+        //   position: "Specialist",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
         {
           fullName: "Vuyisa Xola Nongendzi",
           position: "Administrator",
@@ -243,7 +243,7 @@ module.exports = {
         },
         {
           fullName: "Karabo Samuel Dikgore",
-          position: "Manager",
+          position: "Specialist",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -595,7 +595,7 @@ module.exports = {
         },
         {
           fullName: "Queen Maphoto",
-          position: "Specialist",
+          position: "Administrator",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -643,7 +643,7 @@ module.exports = {
         },
         {
           fullName: "Thokolo France Lebogo",
-          position: "Administrator",
+          position: "Intern",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -651,7 +651,7 @@ module.exports = {
         },
         {
           fullName: "Shane Maduana",
-          position: "Administrator",
+          position: "Intern",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -706,7 +706,7 @@ module.exports = {
           id: uuidv4()
         },
         {
-          fullName: "Company Secretary",
+          fullName: "Company Secretary Office",
           position: "Department",
           dateCreated: new Date(),
           dateUpdated: new Date(),
@@ -722,7 +722,7 @@ module.exports = {
           id: uuidv4()
         },
         {
-          fullName: "Information and Communications Technology",
+          fullName: "Information Technology",
           position: "Department",
           dateCreated: new Date(),
           dateUpdated: new Date(),
