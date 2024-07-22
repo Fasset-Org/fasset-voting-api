@@ -689,6 +689,23 @@ module.exports = {
           type: "department",
           id: uuidv4()
         },
+
+        {
+          fullName: "Skills Planning and Research",
+          position: "Department",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "department",
+          id: uuidv4()
+        },
+        {
+          fullName: "Supply Chain Management",
+          position: "Department",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "department",
+          id: uuidv4()
+        },
         {
           fullName: "Audit Risk Compliance",
           position: "Department",
