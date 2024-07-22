@@ -33,7 +33,14 @@ module.exports = {
         },
         {
           id: uuidv4(),
-          category: "Women and Man of Resilience",
+          category: "Man of Resilience",
+          level: "employee",
+          dateCreated: new Date(),
+          dateUpdated: new Date()
+        },
+        {
+          id: uuidv4(),
+          category: "Woman of Resilience",
           level: "employee",
           dateCreated: new Date(),
           dateUpdated: new Date()
