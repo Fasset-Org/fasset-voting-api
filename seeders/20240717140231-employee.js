@@ -193,14 +193,14 @@ module.exports = {
           type: "employee",
           id: uuidv4()
         },
-        // {
-        //   fullName: "Boitumelo Sepeng",
-        //   position: "Specialist",
-        //   dateCreated: new Date(),
-        //   dateUpdated: new Date(),
-        //   type: "employee",
-        //   id: uuidv4()
-        // },
+        {
+          fullName: "Boitumelo Sepeng",
+          position: "Specialist",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "employee",
+          id: uuidv4()
+        },
         {
           fullName: "Vuyisa Xola Nongendzi",
           position: "Administrator",
