@@ -737,6 +737,31 @@ module.exports = {
           type: "department",
           id: uuidv4()
         },
+
+        {
+          fullName: "Siyamthanda Nyathi",
+          position: "Intern",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "employee",
+          id: uuidv4()
+        },
+        {
+          fullName: "Thando Permly Njoko",
+          position: "Intern",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "employee",
+          id: uuidv4()
+        },
+        {
+          fullName: "Lethiwe Portia Mbatha",
+          position: "Intern",
+          dateCreated: new Date(),
+          dateUpdated: new Date(),
+          type: "employee",
+          id: uuidv4()
+        },
         {
           fullName: "Lucas Otletseng",
           position: "Intern",
