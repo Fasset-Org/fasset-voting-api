@@ -82,7 +82,7 @@ module.exports = {
         },
         {
           id: uuidv4(),
-          category: "Employee Choice: Great Employee",
+          category: "Employee Choice: Great Communicator",
           level: "employee",
           dateCreated: new Date(),
           dateUpdated: new Date()
