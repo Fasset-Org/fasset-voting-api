@@ -617,22 +617,22 @@ module.exports = {
           type: "employee",
           id: uuidv4()
         },
-        {
-          fullName: "Thandekile Nduli",
-          position: "Specialist",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
-        {
-          fullName: "Sanele Maluleke",
-          position: "Manager",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
+        // {
+        //   fullName: "Thandekile Nduli",
+        //   position: "Specialist",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
+        // {
+        //   fullName: "Sanele Maluleke",
+        //   position: "Manager",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
         {
           fullName: "Kgomotso Mosese",
           position: "Administrator",
@@ -859,22 +859,22 @@ module.exports = {
           type: "employee",
           id: uuidv4()
         },
-        {
-          fullName: "Mpho Gift Matladi",
-          position: "Intern",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
-        {
-          fullName: "Tshegofatjo Zedan Masoga",
-          position: "Intern",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        }
+        // {
+        //   fullName: "Mpho Gift Matladi",
+        //   position: "Intern",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
+        // {
+        //   fullName: "Tshegofatjo Zedan Masoga",
+        //   position: "Intern",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // }
       ],
       {}
     );
