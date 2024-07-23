@@ -20,6 +20,7 @@ module.exports = {
         {
           fullName: "Ntsebeng Khoarai",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -28,6 +29,7 @@ module.exports = {
         {
           fullName: "Evodia Talent Mtimkulu",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -36,6 +38,7 @@ module.exports = {
         {
           fullName: "Nobuntu Gwala",
           position: "Manager",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -44,6 +47,7 @@ module.exports = {
         {
           fullName: "Thandeka Nyambose",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -52,6 +56,7 @@ module.exports = {
         {
           fullName: "Ntokozo Pretty Nzimande",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -60,6 +65,7 @@ module.exports = {
         {
           fullName: "Akhona Patrick Mdolo",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -67,22 +73,25 @@ module.exports = {
         },
         {
           fullName: "Lorraine Nchabeleng",
+          gender: "F",
           position: "Specialist",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
           id: uuidv4()
         },
-        {
-          fullName: "Ayanda Mafuleka",
-          position: "Executive ",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
+        // {
+        //   fullName: "Ayanda Mafuleka",
+        //   gender: "F",
+        //   position: "Executive",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
         {
           fullName: "Zakariya Alli",
+          gender: "M",
           position: "Executive",
           dateCreated: new Date(),
           dateUpdated: new Date(),
@@ -92,6 +101,7 @@ module.exports = {
         {
           fullName: "Nokulunga Cynthia Mthombeni",
           position: "Executive",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -100,6 +110,7 @@ module.exports = {
         {
           fullName: "Makabongwe Siziba",
           position: "Executive",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -108,6 +119,7 @@ module.exports = {
         {
           fullName: "A'eeda Rhodes",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -116,6 +128,7 @@ module.exports = {
         {
           fullName: "Bomkazi Mnombeli",
           position: "Manager",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -124,6 +137,7 @@ module.exports = {
         {
           fullName: "Glodinah Moleko",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -132,6 +146,7 @@ module.exports = {
         {
           fullName: "Pearl Thomo",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -140,6 +155,7 @@ module.exports = {
         {
           fullName: "S'phamandla Andile Cele",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -148,6 +164,7 @@ module.exports = {
         {
           fullName: "Lwazi Mduduzi Dladla",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -156,6 +173,7 @@ module.exports = {
         {
           fullName: "Apatame Rajabu",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -164,6 +182,7 @@ module.exports = {
         {
           fullName: "Lundikazi  Peter",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -172,6 +191,7 @@ module.exports = {
         {
           fullName: "Ndoda Monama",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -180,6 +200,7 @@ module.exports = {
         {
           fullName: "Raymond Mulovhedzi",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -188,6 +209,7 @@ module.exports = {
         {
           fullName: "Sidney Matjeke",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -196,6 +218,7 @@ module.exports = {
         {
           fullName: "Boitumelo Sepeng",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -204,6 +227,7 @@ module.exports = {
         {
           fullName: "Vuyisa Xola Nongendzi",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -212,6 +236,7 @@ module.exports = {
         {
           fullName: "Rudzani Munzhedzi Ramphfumedzi",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -220,6 +245,7 @@ module.exports = {
         {
           fullName: "Thabo George Khwenenyana",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -228,6 +254,7 @@ module.exports = {
         {
           fullName: "Phuti Theodora Matsi",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -236,6 +263,7 @@ module.exports = {
         {
           fullName: "Thabile Mgoza",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -244,6 +272,7 @@ module.exports = {
         {
           fullName: "Karabo Samuel Dikgore",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -252,6 +281,7 @@ module.exports = {
         {
           fullName: "Igor Felipe Rivera-Green",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -260,6 +290,7 @@ module.exports = {
         {
           fullName: "Thato Modise   ",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -268,6 +299,7 @@ module.exports = {
         {
           fullName: "Madiabe Mokgalong",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -276,6 +308,7 @@ module.exports = {
         {
           fullName: "Maphala Seakamela",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -284,6 +317,7 @@ module.exports = {
         {
           fullName: "Sanele Biyela",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -292,6 +326,7 @@ module.exports = {
         {
           fullName: "Sandi Silevana",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -300,6 +335,7 @@ module.exports = {
         {
           fullName: "Themba Makamu",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -308,6 +344,7 @@ module.exports = {
         {
           fullName: "Thabiso Fanchy Sebashe",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -316,6 +353,7 @@ module.exports = {
         {
           fullName: "Vusi  Mahlangu",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -324,6 +362,7 @@ module.exports = {
         {
           fullName: "Banele Nduli",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -332,6 +371,7 @@ module.exports = {
         {
           fullName: "Nokulunga Linganisa",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -340,6 +380,7 @@ module.exports = {
         {
           fullName: "Zibuyile Busisiwe Nkabinde",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -348,6 +389,7 @@ module.exports = {
         {
           fullName: "Spencer Nhunzvi",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -356,6 +398,7 @@ module.exports = {
         {
           fullName: "Khomotso Phetla",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -364,6 +407,7 @@ module.exports = {
         {
           fullName: "Nomadlozi Buthelezi",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -372,6 +416,7 @@ module.exports = {
         {
           fullName: "Simon  Mokete",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -380,6 +425,7 @@ module.exports = {
         {
           fullName: "Unathi Nkosiyane",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -388,6 +434,7 @@ module.exports = {
         {
           fullName: "Mamarothi Carin Mathibe",
           position: "Manager",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -396,14 +443,16 @@ module.exports = {
         {
           fullName: "Nomandla Aphane",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
           id: uuidv4()
         },
         {
-          fullName: "Nomsa Makwarela  ",
+          fullName: "Nomsa Makwarela",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -412,14 +461,16 @@ module.exports = {
         {
           fullName: "Godfrey Maswanganye",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
           id: uuidv4()
         },
         {
-          fullName: "Thifhelimbilu Rathogwa ",
+          fullName: "Thifhelimbilu Rathogwa",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -428,6 +479,7 @@ module.exports = {
         {
           fullName: "Surprise Majeke",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -436,6 +488,7 @@ module.exports = {
         {
           fullName: "Lehlogonolo Mmopane",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -444,6 +497,7 @@ module.exports = {
         {
           fullName: "Sandisiwe Mgidi",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -452,6 +506,7 @@ module.exports = {
         {
           fullName: "Prince Ntetha",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -460,6 +515,7 @@ module.exports = {
         {
           fullName: "Khulekani Khoza",
           position: "Manager",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -468,6 +524,7 @@ module.exports = {
         {
           fullName: "Xola Mguzulwa",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -476,6 +533,7 @@ module.exports = {
         {
           fullName: "Chantal Monyane",
           position: "Manager",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -484,6 +542,7 @@ module.exports = {
         {
           fullName: "Njabulo Mabuza",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -492,6 +551,7 @@ module.exports = {
         {
           fullName: "Silindile Penelope Zulu",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -500,6 +560,7 @@ module.exports = {
         {
           fullName: "Patience Motloung",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -508,6 +569,7 @@ module.exports = {
         {
           fullName: "Gcina Sphiwo Goba",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -516,6 +578,7 @@ module.exports = {
         {
           fullName: "Maphuti Ally Somo",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -524,6 +587,7 @@ module.exports = {
         {
           fullName: "Benghali Matthias Mokoatle",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -532,6 +596,7 @@ module.exports = {
         {
           fullName: "Tendani Sivhugwana",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -540,6 +605,7 @@ module.exports = {
         {
           fullName: "Zethembe Talent Simelane",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -548,6 +614,7 @@ module.exports = {
         {
           fullName: "Wandise Cekuse",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -556,22 +623,25 @@ module.exports = {
         {
           fullName: "Esther Morake ",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
           id: uuidv4()
         },
         {
-          fullName: "Tshifhiwa Leonard Maumela ",
+          fullName: "Tshifhiwa Leonard Maumela",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
           id: uuidv4()
         },
         {
-          fullName: "Nonhlanhla Nkabinde ",
+          fullName: "Nonhlanhla Nkabinde",
           position: "Specialist",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -580,6 +650,7 @@ module.exports = {
         {
           fullName: "Sanele Dlamini",
           position: "Specialist",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -588,6 +659,7 @@ module.exports = {
         {
           fullName: "Lunga Ndumiso Bernard",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -596,6 +668,7 @@ module.exports = {
         {
           fullName: "Queen Maphoto",
           position: "Administrator",
+          gender: "F",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
@@ -604,19 +677,21 @@ module.exports = {
         {
           fullName: "Sizwe Ennocent Mfusi",
           position: "Administrator",
+          gender: "M",
           dateCreated: new Date(),
           dateUpdated: new Date(),
           type: "employee",
           id: uuidv4()
         },
-        {
-          fullName: "Sandile Mfeka",
-          position: "Administrator",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
+        // {
+        //   fullName: "Sandile Mfeka",
+        //   position: "Administrator",
+        //   gender: "M",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
         // {
         //   fullName: "Thandekile Nduli",
         //   position: "Specialist",
@@ -633,14 +708,15 @@ module.exports = {
         //   type: "employee",
         //   id: uuidv4()
         // },
-        {
-          fullName: "Kgomotso Mosese",
-          position: "Administrator",
-          dateCreated: new Date(),
-          dateUpdated: new Date(),
-          type: "employee",
-          id: uuidv4()
-        },
+        // {
+        //   fullName: "Kgomotso Mosese",
+        //   position: "Administrator",
+        //   gender: "F",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date(),
+        //   type: "employee",
+        //   id: uuidv4()
+        // },
         {
           fullName: "Thokolo France Lebogo",
           position: "Intern",
