@@ -44,7 +44,11 @@ app.get("/", (req, res, next) => {
 });
 
 app.get(`${API_BASE_URL}/getAllEmplyees`, async (req, res, next) => {
-  const employees = await Employee.findAll();
+  const employees = await Employee.findAll({
+    order: [
+      ["fullName", "ASC"]
+    ]
+  });
 
   return res.status(200).json({
     success: true,
