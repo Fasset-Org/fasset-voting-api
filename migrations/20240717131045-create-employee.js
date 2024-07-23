@@ -6,14 +6,17 @@ module.exports = {
       id: {
         type: DataTypes.UUID,
         primaryKey: true,
-        allowNull: false,
+        allowNull: false
       },
       fullName: {
         type: DataTypes.TEXT,
         allowNull: false
       },
       position: {
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT
+      },
+      gender: {
+        type: DataTypes.TEXT
       },
       type: {
         type: DataTypes.TEXT,
