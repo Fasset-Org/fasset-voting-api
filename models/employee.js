@@ -28,6 +28,9 @@ module.exports = (sequelize, DataTypes) => {
       position: {
         type: DataTypes.TEXT
       },
+      gender: {
+        type: DataTypes.TEXT
+      },
       type: {
         type: DataTypes.TEXT,
         allowNull: false
