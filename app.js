@@ -115,7 +115,7 @@ app.post(`${API_BASE_URL}/voteCategory`, async (req, res, next) => {
 
     return res
       .status(201)
-      .json({ success: true, message: "Your nomite was submitted successfully" });
+      .json({ success: true, message: "Your vote was submitted successfully" });
   } catch (e) {
     console.log(e);
     await t.rollback();
