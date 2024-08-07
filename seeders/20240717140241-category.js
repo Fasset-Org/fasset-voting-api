@@ -31,20 +31,20 @@ module.exports = {
           dateCreated: new Date(),
           dateUpdated: new Date()
         },
-        {
-          id: uuidv4(),
-          category: "Man of Resilience",
-          level: "men",
-          dateCreated: new Date(),
-          dateUpdated: new Date()
-        },
-        {
-          id: uuidv4(),
-          category: "Woman of Resilience",
-          level: "women",
-          dateCreated: new Date(),
-          dateUpdated: new Date()
-        },
+        // {
+        //   id: uuidv4(),
+        //   category: "Man of Resilience",
+        //   level: "men",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date()
+        // },
+        // {
+        //   id: uuidv4(),
+        //   category: "Woman of Resilience",
+        //   level: "women",
+        //   dateCreated: new Date(),
+        //   dateUpdated: new Date()
+        // },
         {
           id: uuidv4(),
           category: "Mentoring Champion",
@@ -54,7 +54,7 @@ module.exports = {
         },
         {
           id: uuidv4(),
-          category: "Leadership: Inspire",
+          category: "Leadership Inspire",
           level: "executive",
           dateCreated: new Date(),
           dateUpdated: new Date()
@@ -68,7 +68,7 @@ module.exports = {
         },
         {
           id: uuidv4(),
-          category: "Employee Choice: Great Sense of Humor",
+          category: "Employee Choice: Great Sense of Humour",
           level: "employee",
           dateCreated: new Date(),
           dateUpdated: new Date()
@@ -96,7 +96,7 @@ module.exports = {
         },
         {
           id: uuidv4(),
-          category: "Rising Star HET & WBE",
+          category: "Rising Star: HET & WBE",
           level: "intern",
           dateCreated: new Date(),
           dateUpdated: new Date()
